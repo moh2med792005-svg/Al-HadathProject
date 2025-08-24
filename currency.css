@@ -1,0 +1,10 @@
+.container{
+     color: white;
+     margin: 20px;
+     box-shadow: 10px 10px 2px#999;
+     border: 3px solid black;
+     border-radius: 10px;
+     width:750px;
+     height: 500px;
+     background-image: url('proxy-image.jpeg');
+}
