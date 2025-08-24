@@ -165,51 +165,6 @@ $.ajax({
 
     }});
 
-        // first new
-//         var image1=data.top_news[0].news[0].image;
-//         var paragraph1=data.top_news[0].news[0].summary;
-//         var link1 = data.top_news[0].news[0].url;
-//         $('section img').attr('src',image1);
-//         $('section h2').text(paragraph1); 
-//         $('section a').click(function() {
-//             window.open(link1);
-//         });
-        
-//     }
-// });
-
-
-// $.ajax({
-//     url:urlApiNews,
-//     type:'get',
-//     dataType:'json',
-//     success:function(data){
-//         console.log(data);
-//         // first new
-//         var image1=data.top_news[0].news[0].image;
-//         var paragraph1=data.top_news[0].news[0].summary;
-//         var link1 = data.top_news[0].news[0].url;
-//         $('section img').attr('src',image1);
-//         $('section h2').text(paragraph1); 
-//         $$('section a').click(function() {
-//             window.open(link1);
-//         });
-        
-        
-//         // second new
-//         var image2=data.top_news[0].news[1].image;
-//         var paragraph2=data.top_news[0].news[1].summary;
-//         var link2 = data.top_news[0].news[1].url;
-//         $('section img').attr('src',image2);
-//         $('section h2').text(paragraph2); 
-//         $('section a').click(function() {
-//             window.open(link1);
-//         });
-
-
-// ***************************************************************************************************************************
-// --------------------<--  part of  weather   --->--------------------------------------------------------------------
-// *************************************************************************************************************************
 var weatherApiKey = '699d680d5db248b82ef2ae80283c5812';
 var cityName = 'Cairo';
 var countryCode = 'EG';
